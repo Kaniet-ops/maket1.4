@@ -76,10 +76,12 @@ button {
 .button-burger{
   display: flex;
   background-color: #fff;
+  cursor: pointer;
 }
 .button-search{
   display: flex;
   background-color: #fff;
+  cursor: pointer;
 }
 
 .menu__header{
@@ -122,8 +124,13 @@ button {
 .main-menu__link_selected{
   color: #7E7E82;
 }
-.button-group:hover{
+.phone-button:hover{
   opacity: 0.5;
+  cursor: pointer;
+}
+.chat-button:hover{
+  opacity: 0.5;
+  cursor: pointer;
 }
 .menu__nav{
   flex-grow: 1;
